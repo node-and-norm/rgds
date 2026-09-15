@@ -8,8 +8,8 @@ authors:
   - family-names: Banasihan
     given-names: Mark Julius
     orcid: "https://orcid.org/0009-0001-8121-2878"
-repository-code: "https://github.com/mj3b/rgds"
-url: "https://github.com/mj3b/rgds"
+repository-code: "https://github.com/node-and-norm/rgds"
+url: "https://github.com/node-and-norm/rgds"
 license: Apache-2.0
 abstract: >-
   Reference implementation of structured decision records for regulated phase gates.
@@ -25,4 +25,4 @@ references:
     date-released: 2026-05-16
     doi: "10.5281/zenodo.20242004"
     url: "https://zenodo.org/records/20242004"
-    repository-code: "https://github.com/mj3b/rgds-independent-study"
+    repository-code: "https://github.com/node-and-norm/rgds-independent-study"

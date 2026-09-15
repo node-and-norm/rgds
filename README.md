@@ -1,11 +1,15 @@
 # RGDS — Regulated Gate Decision Support
 
+[Node & Norm research directory](https://github.com/node-and-norm) · Regulated reference implementation of the decision-governance program.
+
+Repository stewardship moved to Node & Norm on 2026-09-15. Published versions, authorship, and research-status claims retain their existing scope.
+
 [![Status: Independent Case Study](https://img.shields.io/badge/status-independent%20case%20study-5b6cff)](#status)
 [![Human Governed](https://img.shields.io/badge/governance-human--governed-3bb273)](docs/governance.md)
 [![Non-Agentic](https://img.shields.io/badge/AI-explicitly%20non--agentic-2d7ff9)](#ai-governance)
 [![Schema Enforced](https://img.shields.io/badge/schema-decision%20log%20enforced-1f6feb)](#decision-log-schema)
-[![CI Validation](https://img.shields.io/github/actions/workflow/status/mj3b/rgds/validate.yml)](https://github.com/mj3b/rgds/actions/workflows/validate.yml)
-[![License](https://img.shields.io/github/license/mj3b/rgds)](LICENSE)
+[![CI Validation](https://img.shields.io/github/actions/workflow/status/node-and-norm/rgds/validate.yml)](https://github.com/node-and-norm/rgds/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/node-and-norm/rgds)](LICENSE)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8121--2878-brightgreen)](https://orcid.org/0009-0001-8121-2878)
 
 RGDS addresses the loss of decision context when alternatives, evidence gaps, and approval conditions remain scattered across documents and meeting records. This reference implementation records those elements in a structured decision log for phase-gated regulated programs.
@@ -194,7 +198,7 @@ Both validators use the same semantic checks. When AI is used, they require none
 
 **Evidence rule:** AI output is never treated as primary evidence. If an AI output influences a decision, the human owner must link to the underlying source and record the AI output as a drafting aid. Every decision must remain defensible without the AI output present.
 
-The local [AI assistance policy](docs/ai-assistance-policy.md) states the requirements for this implementation. The related [AI Assistance Governance material](https://github.com/mj3b/rgds-ai-governance) remains a working method under separate review. Its claims do not establish properties of this implementation.
+The local [AI assistance policy](docs/ai-assistance-policy.md) states the requirements for this implementation. The related [AI Assistance Governance material](https://github.com/node-and-norm/rgds-ai-governance) remains a working method under separate review. Its claims do not establish properties of this implementation.
 
 ---
 
@@ -278,7 +282,7 @@ Are you a...
 │
 ├── AI Governance Reviewer
 │   └── docs/ai-assistance-policy.md → rgds-dec-0006
-│       → github.com/mj3b/rgds-ai-governance
+│       → github.com/node-and-norm/rgds-ai-governance
 │       Goal: understand AI boundaries and disclosure requirements
 │
 ├── Regulatory / FDA Auditor
@@ -295,9 +299,9 @@ Are you a...
 
 ## Release History
 
-The current patch release is [v2.0.1](https://github.com/mj3b/rgds/releases/tag/v2.0.1). See the [release notes](docs/releases/v2.0.1.md) for cumulative changes and validation boundaries.
+The current patch release is [v2.0.1](https://github.com/node-and-norm/rgds/releases/tag/v2.0.1). See the [release notes](docs/releases/v2.0.1.md) for cumulative changes and validation boundaries.
 
-The historical release uses the exact tag [`v.2.0.0`](https://github.com/mj3b/rgds/releases/tag/v.2.0.0). It remains unchanged. The [change control log](docs/change-control-log.md) preserves the dated P0 and P1 correction entries and records their inclusion in v2.0.1. No normalized alias or replacement tag has been created.
+The historical release uses the exact tag [`v.2.0.0`](https://github.com/node-and-norm/rgds/releases/tag/v.2.0.0). It remains unchanged. The [change control log](docs/change-control-log.md) preserves the dated P0 and P1 correction entries and records their inclusion in v2.0.1. No normalized alias or replacement tag has been created.
 
 These corrections preserve the decision-record schema. Batch validation now applies the single-record validator's existing AI checks, and the single-record validator checks date formats. Records previously accepted because of those validation gaps may now fail. Cite a commit when referring to the corrected current implementation.
 
@@ -324,10 +328,10 @@ RGDS is a biopharma reference implementation within the proposed NN-DE research 
 
 | Artifact | Role and evidence boundary |
 |----------|----------------------------|
-| [RGDS](https://github.com/mj3b/rgds) | Schema, validators, and illustrative biopharma decision records. Internal checks establish limited structural and semantic properties. |
-| [GDI](https://github.com/mj3b/governed-decision-intelligence) | General decision-record specification and research architecture. |
-| [AI Assistance Governance](https://github.com/mj3b/rgds-ai-governance) | Working method for bounded AI participation, under separate remediation. |
-| [RGDS Independent Study](https://github.com/mj3b/rgds-independent-study) | Historical exploratory study and modeling work. Its projections do not establish deployment outcomes for this implementation. |
+| [RGDS](https://github.com/node-and-norm/rgds) | Schema, validators, and illustrative biopharma decision records. Internal checks establish limited structural and semantic properties. |
+| [GDI](https://github.com/node-and-norm/governed-decision-intelligence) | General decision-record specification and research architecture. |
+| [AI Assistance Governance](https://github.com/node-and-norm/rgds-ai-governance) | Working method for bounded AI participation, under separate remediation. |
+| [RGDS Independent Study](https://github.com/node-and-norm/rgds-independent-study) | Historical exploratory study and modeling work. Its projections do not establish deployment outcomes for this implementation. |
 
 ## Status
 
