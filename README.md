@@ -1,5 +1,15 @@
 # RGDS — Regulated Gate Decision Support
 
+## Research summary
+
+Reference implementation. A schema, validators and six illustrative decision records that make permission, unresolved conditions and closure evidence explicit.
+
+Design conditional approvals, assign follow-up ownership and inspect whether evidence gaps and permission boundaries are recorded.
+
+[Findings, use, limits and next steps](docs/research-summary.md), reviewed 29 October 2026.
+
+
+
 [Node & Norm research directory](https://github.com/node-and-norm) · Regulated reference implementation of the decision-governance program.
 
 Repository stewardship moved to Node & Norm on 2026-09-15. Published versions, authorship, and research-status claims retain their existing scope.
