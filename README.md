@@ -8,6 +8,8 @@ Design conditional approvals, assign follow-up ownership and inspect whether evi
 
 [Findings, use, limits and next steps](docs/research-summary.md), reviewed 29 October 2026.
 
+[AI use, human responsibility and verification limits](docs/ai-use-disclosure.md), reviewed November 3, 2026.
+
 
 
 [Node & Norm research directory](https://github.com/node-and-norm) · Regulated reference implementation of the decision-governance program.
