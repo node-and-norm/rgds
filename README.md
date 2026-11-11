@@ -1,3 +1,9 @@
+> **Research status, as of November 11, 2026: Reference implementation.**
+>
+> **What this repository holds.** A record format, validation tools and six authored illustrative records.
+>
+> **What remains open.** Institutional evaluation, regulatory acceptance and effects on real workflows remain unestablished.
+
 <h1>
 <picture>
   <source media="(max-width: 600px)" srcset="assets/research/v1/banner-mobile-dark.svg">
