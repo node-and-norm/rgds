@@ -40,14 +40,7 @@ The six canonical examples include four conditional approvals, one refusal and o
 
 ## Method in brief
 
-```mermaid
-flowchart LR
-  accTitle: RGDS decision record and validation path
-  accDescr: Evidence, options and conditions inform a human decision record. Validators check its structure and selected relationships. People review the substance and preserve actions and closure evidence.
-  A["Evidence, options<br/>and conditions"] -->|informs| B["Human decision<br/>record"]
-  B -->|checks selected rules| C["Structural and<br/>semantic validation"]
-  C -->|returns findings for| D["Human review and<br/>condition follow-up"]
-```
+![Evidence, options and conditions inform a human decision record. Validators check its structure and selected relationships. People review the substance and preserve actions and closure evidence.](assets/research/method-in-brief.svg)
 
 The text sequence is: prepare the evidence and options, record the human decision, run the checks, then review the substance and follow up on conditions. The validators return findings. A policy or an approval field alone leaves actual review unconfirmed. [Validator](scripts/validate_decision_log.py), [AI-use and verification limits](docs/ai-use-disclosure.md).
 
